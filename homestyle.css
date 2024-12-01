@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body main{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body main nav{
+    width: 30%;
+    background-color: rgb(202, 202, 164);
+    height: 100%;
+}
+
+#Logo{
+    width: 100%;
+    height: 10%;
+    background-color: aquamarine;
+    /* text-align: center; */
+
+}
+
+/* #s_name{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(199, 101, 158);
+    text-align: right;
+
+} */
+
+body main nav ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    /* border: 1px solid red; */
+}
+
+
+body main nav ul li{
+    width: 100%;
+    padding: 8px 16px;
+    border: 1px solid blue;
+}
+
+/* body main nav ul li a{
+    width: 100%;
+    border: 1px solid yellow;
+
+} */
+
+body main section{
+    width: 100%;
+    height: 100%;
+    border: 1px solid cadetblue;
+
+}
+
+body main section > div{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+
+div#B{
+    display: none;
+}
